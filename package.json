@@ -1,0 +1,31 @@
+{
+  "name": "StileUpgraded",
+  "version": "0.1.0",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Dreballo/StileUpgraded.git"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "react": "^16.6.3",
+    "webpack": "^4.26.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.1.6",
+    "body-parser": "^1.18.3",
+    "enzyme": "^3.7.0",
+    "joi-browser": "^13.4.0",
+    "morgan": "^1.9.1",
+    "path": "^0.12.7"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
